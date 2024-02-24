@@ -1,0 +1,14 @@
+-- CREATE USERS TABLE
+CREATE TABLE users (
+    id VARCHAR(255) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    phone VARCHAR(255) UNIQUE NOT NULL,
+    email VARCHAR(255) UNIQUE NULL,
+    password VARCHAR(255) NOT NULL,
+    verified BOOLEAN DEFAULT FALSE,
+    status VARCHAR(255) DEFAULT 'active',
+    email_verified_at TIMESTAMP NULL,
+    phone_verified_at TIMESTAMP NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,0 +1,21 @@
+{
+    "name": "joshuaogwang/weewawo-portal",
+    "description": "Weewawo is a comprehensive Fuel Station Operations Management Information System designed to streamline and optimize the various aspects of fuel station management. This web-based application provides a centralized platform for fuel station owners and operators to efficiently monitor, control, and manage their day-to-day operations.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Joshuaogwang\\WeewawoPortal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joshua Ogwang"
+        }
+    ],
+    "require": {
+        "thingengineer/mysqli-database-class": "dev-master",
+        "rakit/validation": "^1.4",
+        "adhocore/env": "^0.1.0",
+        "steampixel/simple-php-router": "^0.7.1"
+    }
+}
